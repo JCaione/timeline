@@ -1,0 +1,809 @@
+@font-face {font-family: 'United Italic Bold'; src: url('https://googledrive.com/host/0B4IVbsCZ7tNIUDBvd043N2ppLTA');}
+@font-face {font-family: 'United Italic Medium'; src: url('https://googledrive.com/host/0B4IVbsCZ7tNIUVZ1MGZJZno2T2c');}
+@font-face {font-family: 'United Medium'; src: url('https://googledrive.com/host/0B4IVbsCZ7tNIMnREbVA2bHBWb2c');}
+
+#signature.main {display:none !important;}
+.kyrie-signature {display:inline !important;}
+
+.event {
+  background-color: #ebeff0;
+  padding: 15px 25px 32px 25px;
+  border-bottom: thick solid #fdbb30;
+}
+	
+.event h2 {
+  position: relative;
+  padding: 11px 9px 7px 47px;
+  margin: 18px -9px 9px -46px;
+  color: #fdbb30;
+  background-color: #860038;
+  text-align: left;
+  font-family: 'United Italic Medium';
+  font-size: 20px;
+  letter-spacing: 1px;}
+
+.event h2 a {color: #fff;}
+.event h2 a:hover {color: #fdbb30; text-decoration:none;}
+
+h2:before {
+  content: ' ';
+  position: absolute;
+  width: 30px;
+  height: 0;
+  right: -32px;
+  top: 0px;
+  border-width: 20px 20px;
+  border-style: solid;
+  border-color: #860038 transparent #860038 #860038;
+}
+	
+h2:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #3c011a #3c011a transparent transparent;
+}
+
+.event-name {
+  font-family: 'United Italic Bold';
+  font-size: 38px;
+  color: #860038;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.divider {background-color: #bdc3c7; height: 1px; width: 100%; margin: 0px auto 15px auto;}
+
+.event-blurb {
+  color: #333;
+  font-family: 'United Italic Medium';
+  font-size: 23px;
+  text-align: justify;
+}
+.ribbon {float: left;}
+
+.container-seal {margin: 71px auto -70px auto;}
+
+.cover-container {width: 100%;}
+
+
+.container{padding-top: 300px; padding-bottom: 300px;}
+
+#signature.main {  
+  width: 50%;
+  padding-top: 250px;
+}
+
+
+.glyphicon {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  left: -2px;
+  color: #fff;
+}
+
+  
+  
+  
+  
+@media only screen and (max-width: 991px) {
+h2:before {
+  display: none;
+}
+
+h2:after {display: none;}
+
+.event-blurb {
+  font-size: 18px;
+}
+.event h2 {
+  font-weight:normal;
+  padding: 11px 20px 7px 25px;
+  margin: 18px -25px 9px -25px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+}
+@media only screen and (max-width: 768px) {
+	
+.ribbon {
+  float: left;
+  width: 100%;
+}
+
+
+.event-name {
+  font-size: 27px;
+  letter-spacing: 0px;
+}
+.event-blurb {
+  font-size: 18px;
+}
+.event h2 {
+  font-weight:normal;
+  padding: 11px 20px 7px 25px;
+  margin: 18px -25px 9px -25px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+h2:before {
+  display: none;
+}
+
+h2:after {display: none;}
+}
+
+.site-wrapper-inner {
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  height:1080px;
+  background-color:#07081c;
+}
+
+.timeline-header {
+  background-image: url('http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-header-1920x1080.jpg');
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  height:1080px;
+  background-color:#07081c;
+}
+
+@media screen and (max-width: 999px) {
+.timeline-header { background-image: url('http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-header-1150x647.jpg');  height: 647px; }
+
+#header.site-wrapper-inner  {
+  height: auto;
+}
+}
+@media screen and (max-width: 550px) {
+.timeline-header {background-image: url('http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-header-600x338.jpg');  height: 338px;}
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* SECTIONS */
+article {
+  padding-top: 100px;
+}
+.description-wrapper {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+
+}
+.parallax-bg {
+  margin: 0 auto;
+  max-width: 1920px;
+  height: 5px;
+}
+
+.parallax-bg {
+    min-height: 1000px;
+    background-color: black;
+    background-position: 50% 0;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+	width: 100%;
+	display: block;
+}
+
+.parallax-element {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+	
+  }
+  .description-wrapper {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+.bkBottomLayer {
+  background-position: 50% 0;
+}
+/*}*/
+/*
+.parallax-bg{
+	background-image: none;
+	height: 5px;
+}
+*/
+
+/* --- Moblie Specific adjustments --*/
+.mobile .bkBottomLayer,
+.mobile .parallax-bg {
+  background-attachment: scroll;
+}
+
+
+
+
+
+
+
+/* GRIFFIN GM */
+#may-12-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-may-12-2014-parallax-bg.jpg);}
+#may-12-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-may-12-2014.png);}  
+#may-12-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-gilbert-quote.png);background-size: 50%;}
+#may-12-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-griffin-hire.png);background-size: 80%;}  
+.site-wrapper-inner .cover-container #griffin-gm {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-may-12-2014-bg.jpg);}
+.may-12-2014-mobile {display: none;}
+.may-12-2014-tablet {display: none;}
+
+/* LOTTERY WIN */
+#may-20-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-may-20-2014-parallax-bg.jpg);}
+#may-20-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-may-20-2014.png);  }
+#may-20-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lottery-ball-13.png); background-size: 14%; }
+#may-20-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lottery-ball-7.png);   background-size: 14%;}
+#may-20-2014-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lottery-ball-9.png);    background-size: 14%;}
+#may-20-2014-img5 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lottery-ball-14.png);    background-size: 14%;}
+#may-20-2014-img6 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lottery-griff-cohen.png); background-size: 59%;} 
+.site-wrapper-inner .cover-container #lottery {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-may-20-2014-bg.jpg);}
+.may-20-2014-mobile {display: none;}
+.may-20-2014-tablet {display: none;}
+
+/* BLATT COACH */
+#june-20-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-june-20-2014-parallax-bg.jpg);}
+#june-20-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-june-20-2014.png);  }
+#june-20-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-david-nameplate.png);}
+#june-20-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-blatt-nameplate.png);}  
+#june-20-2014-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-blatt-hire.png);  background-size: 50%;}
+.site-wrapper-inner .cover-container #blatt-coach {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-june-20-2014-bg.jpg);}
+.june-20-2014-mobile {display: none;}
+.june-20-2014-tablet {display: none;}
+
+/* DRAFT WIGGINS HARRIS */
+#june-26-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-june-26-2014-parallax-bg.jpg);}
+#june-26-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-june-26-2014.png);  }
+#june-26-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wiggins-draft.png);background-size: 50%;}
+#june-26-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-harris-draft.png);  background-size: 41%;}
+.site-wrapper-inner .cover-container #draft {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-june-26-2014-bg.jpg);}
+.june-26-2014-mobile {display: none;}
+.june-26-2014-tablet {display: none;}
+
+/* KYRIE SIGNS */
+#july-10-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-july-10-2014-parallax-bg.jpg);}
+#july-10-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-july-10-2014.png);  }
+#july-10-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-kyrie-extension.png);}
+.site-wrapper-inner .cover-container #kyrie-extension {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-july-10-2014-bg.jpg);}
+.july-10-2014-mobile {display: none;}
+.july-10-2014-tablet {display: none;}
+
+/* LEBRON SIGNS */
+#july-11-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-july-11-2014-parallax-bg.jpg);}
+#july-11-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-july-11-2014.png);}
+#july-11-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lbj-im.png);  background-size: 34.5%;}
+#july-11-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lbj-coming.png);  background-size: 34.5%;}
+#july-11-2014-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lbj-home.png);  background-size: 34.5%;}
+#july-11-2014-img5 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-signs.png);background-size: 70%;}
+.site-wrapper-inner .cover-container #lebron {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-july-11-2014-bg.jpg);}
+.july-11-2014-mobile {display: none;}
+.july-11-2014-tablet {display: none;}
+
+/* FREE AGENTS SIGN */
+#august-5-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-august-5-2014-parallax-bg.jpg);}
+#august-5-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-august-5-2014.png);}
+#august-5-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-september-9-2014.png);}
+#august-5-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-mike-miller-signed.png); background-size: 44%;}
+#august-5-2014-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-shawn-marion-signed.png); background-size: 44%;}
+#august-5-2014-img5 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-james-jones-signed.png); background-size: 44%;}
+.site-wrapper-inner .cover-container #free-agents {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-august-5-2014-bg.jpg);}
+.august-5-2014-mobile {display: none;}
+.august-5-2014-tablet {display: none;}
+
+/* LOVE TRADE */
+#august-23-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-august-23-2014-parallax-bg.jpg);}
+#august-23-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-august-23-2014.png);}
+#august-23-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-bennett-trade.png);background-size: 34%;}
+#august-23-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wiggins-trade.png);background-size: 39%;}
+#august-23-2014-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-love-trade.png);background-size: 57%;}
+.site-wrapper-inner .cover-container #love-trade {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-august-23-2014-bg.jpg);}
+.august-23-2014-mobile {display: none;}
+.august-23-2014-tablet {display: none;}
+
+/* HOME OPENER */
+#october-30-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-october-30-2014-parallax-bg.jpg);}
+#october-30-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-october-30-2014.png);}
+#october-30-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-love-opener.png);  background-size: 51%;}
+#october-30-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-chalk-toss-cloud.png);background-size: 30%;}
+#october-30-2014-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-chalk-toss.png);background-size: 47%;}
+.site-wrapper-inner .cover-container #home-opener {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-october-30-2014-bg.jpg);}
+.october-30-2014-mobile {display: none;}
+.october-30-2014-tablet {display: none;}
+
+/* TEAM 3 POINT RECORD */
+#november-15-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-november-15-2014-parallax-bg.jpg);}
+#november-15-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-november-15-2014.png);}
+#november-15-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-3-record.png);  background-size: 27%;}
+#november-15-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-klove-3-record.png);background-size: 25%;}
+.site-wrapper-inner .cover-container #team-3-record {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-november-15-2014-bg.jpg);}
+.november-15-2014-mobile {display: none;}
+.november-15-2014-tablet {display: none;}
+
+/* LBJ PASSES PRICE 3 RECORD */
+#december-12-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-december-12-2014-parallax-bg.jpg);}
+#december-12-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-december-12-2014.png);}
+#december-12-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-static-three-leaderboard.png); background-size: 50.5%;}
+#december-12-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-three-record.png); background-size: 50.5%;}
+#december-12-2014-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-price-three.png);background-size: 40%;}
+.site-wrapper-inner .cover-container #lbj-3-record {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-december-12-2014-bg.jpg);}
+.december-12-2014-mobile {display: none;}
+.december-12-2014-tablet {display: none;}
+
+/* INJURIES */
+#december-23-2014 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-december-23-2014-parallax-bg.jpg);}
+#december-23-2014-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-december-23-2014.png);}
+#december-23-2014-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-1-2015.png);}
+#december-23-2014-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-andy-hurt.png); background-size: 37%;}
+#december-23-2014-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-hurt.png); }
+.site-wrapper-inner .cover-container #injuries {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-december-23-2014-bg.jpg);}
+.december-23-2014-mobile {display: none;}
+.december-23-2014-tablet {display: none;}
+
+/* TRADES */
+#january-5-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-5-2015-parallax-bg.jpg);}
+#january-5-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-5-2015.png);}
+#january-5-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-16-2015.png);}
+#january-5-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-dion-trade.png);background-size: 30%;}
+#january-5-2015-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-shump-jr-mozgov.png);  background-size: 47%}
+.site-wrapper-inner .cover-container #trades {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-5-2015-bg.jpg);}
+.january-5-2015-mobile {display: none;}
+.january-5-2015-tablet {display: none;}
+
+/* LAKERS WIN */
+#january-15-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-15-2015-parallax-bg.jpg);}
+#january-15-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-15-2015.png);}
+#january-15-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-klove-lakers-ball.png);background-size: 10%;}
+#january-15-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-klove-lakers.png);background-size: 55%;}
+.site-wrapper-inner .cover-container #lakers-win {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-15-2015-bg.jpg);}
+.january-15-2015-mobile {display: none;}
+.january-15-2015-tablet {display: none;}
+
+/* WIN MARGIN */
+#january-23-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-23-2015-parallax-bg.jpg);}
+#january-23-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-23-2015.png);}
+#january-23-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-the-diff.png);}
+#january-23-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-plus-39.png);background-size: 30%;}
+#january-23-2015-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-win-margin.png);  background-size: 47%;}
+.site-wrapper-inner .cover-container #win-margin {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-23-2015-bg.jpg);}
+.january-23-2015-mobile {display: none;}
+.january-23-2015-tablet {display: none;}
+
+/* CLIPPERS WIN */
+#february-5-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-5-2015-parallax-bg.jpg);}
+#february-5-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-5-2015.png);}
+#february-5-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-jr-clippers-ball.png);background-size: 12%;}
+#february-5-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-jr-clippers.png);background-size: 30%;}
+#february-5-2015-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-clippers-ball.png);background-size: 12%; }
+#february-5-2015-img5 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-clippers.png);background-size: 30%;  }
+.site-wrapper-inner .cover-container #clippers-win {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-5-2015-bg.jpg);}
+.february-5-2015-mobile {display: none;}
+.february-5-2015-tablet {display: none;}
+
+/* ALL-STAR WEEKEND */
+#february-13-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-13-2015-parallax-bg.jpg);}
+#february-13-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-13-2015.png);}
+#february-13-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-allstar-hoop.png);background-size: 20%;}
+#february-13-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-delly-allstar.png);background-size: 20%;}
+#february-13-2015-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-kyrie-allstar.png);background-size: 20%; }
+#february-13-2015-img5 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-allstar.png);background-size: 32%;  }
+.site-wrapper-inner .cover-container #allstar {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-13-2015-bg.jpg);}
+.february-13-2015-mobile {display: none;}
+.february-13-2015-tablet {display: none;}
+
+/* PERKINS */
+#february-24-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-24-2015-parallax-bg.jpg);}
+#february-24-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-24-2015.png);}
+#february-24-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-perkins-signed.png);background-size: 74%;}
+.site-wrapper-inner .cover-container #perkins {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-24-2015-bg.jpg);}
+.february-24-2015-mobile {display: none;}
+.february-24-2015-tablet {display: none;}
+
+/* LEBRON ASSIST LEADER */
+#march-10-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-10-2015-parallax-bg.jpg);}
+#march-10-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-10-2015.png);}
+#march-10-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-price-assist.png);background-size: 26%;}
+#march-10-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-assist.png);background-size: 46%;}
+.site-wrapper-inner .cover-container #lebron-assist {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-10-2015-bg.jpg);}
+.march-10-2015-mobile {display: none;}
+.march-10-2015-tablet {display: none;}
+
+/* KYRIE SCORING */
+#march-12-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-12-2015-parallax-bg.jpg);}
+#march-12-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-28-2015.png);}
+#march-12-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-12-2015.png);}
+#march-12-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-danny-green.png);background-size: 40%;}
+#march-12-2015-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-kyrie-57.png);background-size: 36%;}
+.site-wrapper-inner .cover-container #kyrie {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-12-2015-bg.jpg);}
+.march-12-2015-mobile {display: none;}
+.march-12-2015-tablet {display: none;}
+
+/* LBJ BLATT AWARDS */
+#march-31-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-31-2015-parallax-bg.jpg);}
+#march-31-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-28-2015.png);}
+#march-31-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-31-2015.png);}
+#march-31-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-blatt-awards.png);background-size: 37%;}
+#march-31-2015-img4 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lbj-awards.png);background-size: 63%;}
+.site-wrapper-inner .cover-container #lbj-blatt {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-31-2015-bg.jpg);}
+.march-31-2015-mobile {display: none;}
+.march-31-2015-tablet {display: none;}
+
+/* LBJ SCORING LIST */
+#april-2-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-2-2015-parallax-bg.jpg);}
+#april-2-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-2-2015.png);}
+#april-2-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-scoring-list.png);}
+.site-wrapper-inner .cover-container #lebron-scoring-list {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-2-2015-bg.jpg);}
+.april-2-2015-mobile {display: none;}
+.april-2-2015-tablet {display: none;}
+
+/* CLINCHED DIVISION */
+#april-8-2015 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-8-2015-parallax-bg.jpg);}
+#april-8-2015-img1 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-8-2015.png);}
+#april-8-2015-img2 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-lebron-clinched-division.png);  background-size: 32%;}
+#april-8-2015-img3 {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-kyrie-clinched-division.png);  background-size: 32%;}
+.site-wrapper-inner .cover-container #clinched-division {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-8-2015-bg.jpg);}
+.april-8-2015-mobile {display: none;}
+.april-8-2015-tablet {display: none;}
+
+@media only screen and (max-width: 1024px) {
+
+.kyrie-signature{display: none;}
+	
+	.parallax-bg {
+    background-attachment: scroll;
+}
+
+.parallax-element {
+    background-attachment: scroll;
+	
+  }
+.description-wrapper {
+    background-attachment: scroll;
+  }
+.container {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+/* GRIFFIN GM */
+.may-12-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#may-12-2014 {display: none;}
+.site-wrapper-inner .cover-container #griffin-gm {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-may-12-2014-tablet-bg.jpg); float: left; width: 100%;}
+.may-12-2014-mobile {disolay: none;}
+
+/* LOTTERY WIN */
+.may-20-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#may-20-2014 {display: none;}
+#lottery {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-may-20-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* BLATT COACH */
+.june-20-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#june-20-2014 {display: none;}
+#blatt-coach {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-june-20-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* DRAFT WIGGINS HARRIS */
+.june-26-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#june-26-2014 {display: none;}
+#draft {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-june-26-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* KYRIE SIGNS */
+.july-10-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#july-10-2014 {display: none;}
+#kyrie-extension {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-july-10-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* LEBRON SIGNS */
+.july-11-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-black-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#july-11-2014 {display: none;}
+#lebron {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-july-11-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* FREE AGENTS SIGN */
+.august-5-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#august-5-2014 {display: none;}
+#free-agents {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-august-5-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* LOVE TRADE */
+.august-23-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#august-23-2014 {display: none;}
+#love-trade {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-august-23-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* HOME OPENER */
+.october-30-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#october-30-2014 {display: none;}
+#home-opener {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-october-30-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* TEAM 3 POINT RECORD */
+.november-15-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#november-15-2014 {display: none;}
+#team-3-record {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-november-15-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* LBJ POWs */
+.november-17-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#november-17-2014 {display: none;}
+#lbj-pows {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-november-17-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* LBJ PASSES PRICE 3 RECORD */
+.december-12-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#december-12-2014 {display: none;}
+#lbj-3-record {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-december-12-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* INJURIES */
+.december-23-2014-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#december-23-2014 {display: none;}
+#injuries {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-december-23-2014-tablet-bg.jpg); float: left; width: 100%;}
+
+/* DION TRADE */
+.january-5-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#january-5-2015{display: none;}
+#trades {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-5-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+/* WIN MARGIN */
+.january-23-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#january-23-2015{display: none;}
+#win-margin {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-january-23-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+/* CLIPPERS WIN */
+.february-5-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#february-5-2015{display: none;}
+#clippers-win {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-5-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+/* ALL-STAR WEEKEND */
+.february-13-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#february-13-2015{display: none;}
+#allstar {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-23-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+/* PERKINS */
+.february-24-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#february-24-2015{display: none;}
+#perkins {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-february-24-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+
+/* LEBRON ASSIST LEADER */
+.march-10-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#march-10-2015{display: none;}
+#lebron-assist {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-10-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+/* KYRIE SCORING */
+.march-12-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#march-12-2015{display: none;}
+#kyrie {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-12-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+/* LBJ BLATT AWARDS */
+.march-31-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#march-31-2015{display: none;}
+#lbj-blatt {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-march-31-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+/* LBJ SCORING LIST */
+.april-2-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-2-2015-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#april-2-2015{display: none;}
+#lebron-scoring-list {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-2-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+/* CLINCHED DIVISION */
+.april-8-2015-tablet {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-8-2015-tablet-bg.jpg);float: left;background-position: 50% 0;}
+#april-8-2015{display: none;}
+#clinched-division {background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-8-2015-tablet-bg.jpg); float: left; width: 100%;}
+
+}
+
+@media only screen and (max-width: 1000px) {
+#june-20-2014-img1 {background-size: 100%;}
+#june-26-2014-img1 {background-size: 100%;}
+#july-10-2014-img1 {background-size: 100%;}
+#july-11-2014-img1 {background-size: 100%;}
+#august-5-2014-img1 {background-size: 100%;}
+#august-5-2014-img2 {background-size: 100%;}
+#august-23-2014-img1 {background-size: 100%;}
+#october-30-2014-img1 {background-size: 100%;}
+#november-15-2014-img1 {background-size: 100%;}
+#november-17-2014-img1 {background-size: 100%;}
+#november-17-2014-img2 {background-size: 100%;}
+#november-17-2014-img3 {background-size: 100%;}
+#december-12-2014-img1 {background-size: 100%;}
+#december-23-2014-img1 {background-size: 100%;}
+#december-23-2014-img2 {background-size: 40%;}
+#december-23-2014-img3 {background-size: 47%;}
+#january-5-2015-img1 {background-size: 100%;}
+#january-23-2015-img1 {background-size: 100%;}
+#january-5-2015-img1 {background-size: 100%;}
+#january-5-2015-img2 {background-size: 100%;}
+#january-23-2015-img1 {background-size: 100%;}
+#february-5-2015-img1 {background-size: 100%;}
+#january-13-2015-img1 {background-size: 100%;}
+#january-24-2015-img1 {background-size: 100%;}
+#march-10-2015-img1 {background-size: 100%;}
+#march-12-2015-img1 {background-size: 100%;}
+#march-12-2015-img2 {background-size: 100%;}
+#march-31-2015-img1 {background-size: 100%;}
+#march-31-2015-img2 {background-size: 100%;}
+#april-2-2015-img1 {background-size: 100%;}
+#april-8-2015-img1 {background-size: 100%;}
+
+
+  
+}
+
+@media only screen and (max-width: 990px) {
+#july-11-2014-img2 {background-size: 43.5%;}
+#july-11-2014-img3 {background-size: 43.5%;}
+#july-11-2014-img4 {background-size: 43.5%;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) { 
+.col-md-8.col-md-offset-2 {
+width: 83.3333333333%;
+margin-left: 8.3333333333%	
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+/* GRIFFIN GM */
+.may-12-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#may-12-2014 {display: none;}
+.site-wrapper-inner .cover-container #griffin-gm { float: left; width: 100%;}
+.may-12-2014-tablet {display: none;}
+
+/* LOTTERY WIN */
+.may-20-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#may-20-2014 {display: none;}
+#lottery { float: left; width: 100%;}
+.may-20-2014-tablet {display: none;}
+
+/* BLATT COACH */
+.june-20-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#june-20-2014 {display: none;}
+#blatt-coach { float: left; width: 100%;}
+.june-20-2014-tablet {display: none;}
+
+/* DRAFT WIGGINS HARRIS */
+.june-26-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#june-26-2014 {display: none;}
+#draft { float: left; width: 100%;}
+.june-26-2014-tablet {display: none;}
+
+/* KYRIE SIGNS */
+.july-10-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#july-10-2014 {display: none;}
+#kyrie-extension {float: left; width: 100%;}
+.july-10-2014-tablet {display: none;}
+
+/* LEBRON SIGNS */
+.july-11-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-black-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#july-11-2014 {display: none;}
+#lebron { float: left; width: 100%;}
+.july-11-2014-tablet {display: none;}
+
+/* FREE AGENTS SIGN */
+.august-5-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#august-5-2014 {display: none;}
+#free-agents { float: left; width: 100%;}
+.august-5-2014-tablet {display: none;}
+
+/* LOVE TRADE */
+.august-23-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#august-23-2014 {display: none;}
+#love-trade { float: left; width: 100%;}
+.august-23-2014-tablet {display: none;}
+
+/* HOME OPENER */
+.october-30-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#october-30-2014 {display: none;}
+#home-opener { float: left; width: 100%;}
+.october-30-2014-tablet {display: none;}
+
+/* TEAM 3 POINT RECORD */
+.november-15-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#november-15-2014 {display: none;}
+#team-3-record { float: left; width: 100%;}
+.november-15-2014-tablet {display: none;}
+
+/* LBJ POWs */
+.november-17-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#november-17-2014 {display: none;}
+#lbj-pows { float: left; width: 100%;}
+.november-17-2014-tablet {display: none;}
+
+/* LBJ PASSES PRICE 3 RECORD */
+.december-12-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#december-12-2014 {display: none;}
+#lbj-3-record { float: left; width: 100%;}
+.december-12-2014-tablet {display: none;}
+
+/* INJURIES */
+.december-23-2014-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#december-23-2014 {display: none;}
+#injuries {float: left; width: 100%;}
+.december-23-2014-tablet {display: none;}
+
+/* DION TRADE */
+.january-5-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#january-5-2015{display: none;}
+#trades { float: left; width: 100%;}
+.january-5-2015-tablet {display: none;}
+
+/* WIN MARGIN */
+.january-23-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#january-23-2015{display: none;}
+#win-margin { float: left; width: 100%;}
+.january-23-2015-tablet {display: none;}
+
+/* CLIPPERS WIN */
+.february-5-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#february-5-2015{display: none;}
+#clippers-win {float: left; width: 100%;}
+.february-5-2015-tablet {display: none;}
+
+/* ALL-STAR WEEKEND */
+.february-13-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#february-13-2015{display: none;}
+#allstar { float: left; width: 100%;}
+.february-13-2015-tablet {display: none;}
+
+/* PERKINS */
+.february-24-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#february-24-2015{display: none;}
+#perkins { float: left; width: 100%;}
+.february-24-2015-tablet {display: none;}
+
+/* LEBRON ASSIST LEADER */
+.march-10-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#march-10-2015{display: none;}
+#lebron-assist { float: left; width: 100%;}
+.march-10-2015-tablet {display: none;}
+
+/* KYRIE SCORING */
+.march-12-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-wine-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#march-12-2015{display: none;}
+#kyrie { float: left; width: 100%;}
+.march-12-2015-tablet {display: none;}
+
+/* LBJ BLATT AWARDS */
+.march-31-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#march-31-2015{display: none;}
+#lbj-blatt { float: left; width: 100%;}
+.march-31-2015-tablet {display: none;}
+
+/* LBJ SCORING LIST */
+.april-2-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-april-2-2015-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#april-2-2015{display: none;}
+#lebron-scoring-list { float: left; width: 100%;}
+.april-2-2015-tablet {display: none;}
+
+/* CLINCHED DIVISION */
+.april-8-2015-mobile {display: inline;width: 100%;background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/1415-timeline-navy-mobile-bg.jpg);float: left;background-position: 50% 0;}
+#april-8-2015{display: none;}
+#clinched-division { float: left; width: 100%;}
+.april-8-2015-tablet {display: none;}
+
+
+}
+
+
+
+
+
+
